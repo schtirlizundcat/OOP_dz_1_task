@@ -17,20 +17,20 @@ import java.util.Date;
 public class Animal {
     public String animalName;
     public boolean canGo;
-
     public boolean canFly;
     public boolean canSwim;
 
-    Animal() {
-        // System.out.println("Создан экземпляр Animal со стандартными параметрами.");
-    }
+//    Animal() {
+//        // System.out.println("Создан экземпляр Animal со стандартными параметрами.");
+//    }
 
-    public Animal(Date dateOfBarth) {
-        System.out.println("Создан экземпляр Animal с датой рождения " + dateOfBarth);
-    }
+//    public Animal(Date dateOfBarth) {
+//        System.out.println("Создан экземпляр Animal с датой рождения " + dateOfBarth);
+//    }
 
     String name;
 
+    // Определяем методы, и выводим информацию о том, умеет ли то или иное животное совершать соответствующее действие.
     public void toGo() {
         if (animalName.isEmpty()) name = "Животное";
         else name = animalName;

@@ -5,8 +5,6 @@ public class Manul extends Animal {
         canGo = true;
         canFly = false;
         canSwim = false;
-
     }
-
 
 }
